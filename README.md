@@ -9,6 +9,9 @@ Expect (rodgIfy(5).toEqual(["Beep!", 2, 3, 4, 5]);
 Test: "It will replace all numbers containing the number 2 with "Boop!"
 Expect (rodgIfy(5).toEqual(["Beep!", "Boop!", 3, 4, 5]);
 
+Test: "It will replace all numbers containing the number 3 with "Won't you be my neighbor?"
+Expect (rodgIfy(5).toEqual(["Beep!", "Boop!", "Won't you be my neighbor?", 4, 5]);
+
 # Programming Language Suggestor
 
 #### An independent project made to practice Arrays and Looping in JavaScript. This is the third and final project of the introduction to programming course at Epicodus!
@@ -39,7 +42,8 @@ For my third independent project at Epicodus, I was instructed to create a web a
 
 ## Known Bugs
 
-* None at this time
+* all numbers that begin with 1 are replaced with "Beep!" regardless of the subsequent number (i.e. 13 = "Beep!" instead of "Won't you be my neighbor).
+* There is a bug that prevents the higher number from supercede the lower number, thus causing the numbers to be replaced by the incorrect string. 
 
 ## License
 
