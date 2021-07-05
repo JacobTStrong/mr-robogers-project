@@ -21,7 +21,7 @@ Expect (rodgIfy(10).toEqual([0,"Beep!", 2, 3, 4, 5, 6, 7, 8, 9, "Beep!"]);
 Test: "It will replace any number that contains a 2 with ("Boop!"). The number 1 is ignored in numbers like 12 or 21"
 Expect (rodgIfy(12).toEqual([0, "Beep!", "Boop!", 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!");
 
-Test: "It will replace any number that contains a 3 with ("Wont you be my neighbor?"). The numbers 1 and 2 will beignored in numbers like 13 and 32"
+Test: "It will replace any number that contains a 3 with ("Wont you be my neighbor?"). The numbers 1 and 2 will be ignored in numbers like 13 and 32"
 Expect (rodgIfy(13).toEqual([0,"Beep!", "Boop!", "Won't you be my neighbor", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]);
 
 # Programming Language Suggestor
@@ -40,7 +40,7 @@ Expect (rodgIfy(13).toEqual([0,"Beep!", "Boop!", "Won't you be my neighbor", 4, 
 
 ## Description
 
-For my third independent project at Epicodus, I was instructed to create a web application that takes a user-inputted number and returns an array of numbers ranging from 0 to the user-inputted number. I know what you're thinking ~ooooooo how bland, Jacob~. I SCOFF! This application doesn't just return an array. No, no, no... It returns a ROBOT MR. ROGERS-THEMED array. We're combining the classics here, people. It's got beeps. It's got boops. And it's got one simple question... Won't you be my neighbor?
+For my third independent project at Epicodus, I was instructed to create a web application that takes a user-inputted number and returns an array of numbers ranging from 0 to the user-inputted number. I know you're thinking "ooooooo how bland, Jacob." I SCOFF! This application doesn't just return an array. No, no, no... It returns a ROBOT MR. ROGERS-THEMED array. We're combining the classics here, people. It's got beeps. It's got boops. And it's got one simple question... Won't you be my neighbor?
 
 ## Installation and Setup
 
