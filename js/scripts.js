@@ -9,6 +9,9 @@ function rodgIfy(inputtedNumber) {
     else if (i.toString().includes("2")) {
       numbersArray.push("Boop!");
     }
+    else if (i.toString().includes("3")) {
+      numbersArray.push("Won't you be my neighbor?");
+    }
     else {
       numbersArray.push(i.toString());
     }
