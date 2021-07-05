@@ -19,7 +19,7 @@ function rodgIfy(inputtedNumber) {
   return numbersArray;
 };
 
-// UI Logic
+// User Interface Logic
 
 $(document).ready(function() {
 	$("form#inputNumberHere").submit(function(event) {
