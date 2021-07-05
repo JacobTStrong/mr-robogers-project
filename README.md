@@ -21,7 +21,7 @@ Expect (rodgIfy(10).toEqual([0,"Beep!", 2, 3, 4, 5, 6, 7, 8, 9, "Beep!"]);
 Test: "It will replace any number that contains a 2 with ("Boop!"). The number 1 is ignored in numbers like 12 or 21"
 Expect (rodgIfy(12).toEqual([0, "Beep!", "Boop!", 3, 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!");
 
-Test: "It will replace any number that contains a 3 with ("Wont you be my neighbor?"). The numbers 1 and 2 will beignored in numbers like 13 and 32"
+Test: "It will replace any number that contains a 3 with ("Wont you be my neighbor?"). The numbers 1 and 2 will be ignored in numbers like 13 and 32"
 Expect (rodgIfy(13).toEqual([0,"Beep!", "Boop!", "Won't you be my neighbor", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]);
 
 # Programming Language Suggestor
