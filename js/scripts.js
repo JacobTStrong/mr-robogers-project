@@ -18,3 +18,15 @@ function rodgIfy(inputtedNumber) {
   }
   return numbersArray;
 };
+
+// UI Logic
+
+$(document).ready(function() {
+	$("form#inputNumberHere").submit(function(event) {
+		event.preventDefault();
+		const userInput = parseInt($("#inputtedNumber").val());
+    const outcome = rodgIfy(userInput);
+    $("#formSubmit").text(outcome);
+    $("#finalArray").show();
+  });
+});
