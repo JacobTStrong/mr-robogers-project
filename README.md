@@ -40,7 +40,7 @@ Expect (rodgIfy(13).toEqual([0,"Beep!", "Boop!", "Won't you be my neighbor", 4, 
 
 ## Description
 
-For my third independent project at Epicodus, I was instructed to create a web application that takes a user-inputted number and returns an array of numbers ranging from 0 to the user-inputted number. I know what you're thinking ~ooooooo how bland, Jacob~. I SCOFF! This application doesn't just return an array. No, no, no... It returns a ROBOT MR. ROGERS-THEMED array. We're combining the classics here, people. It's got beeps. It's got boops. And it's got one simple question... Won't you be my neighbor?
+For my third independent project at Epicodus, I was instructed to create a web application that takes a user-inputted number and returns an array of numbers ranging from 0 to the user-inputted number. I know you're thinking "ooooooo how bland, Jacob." I SCOFF! This application doesn't just return an array. No, no, no... It returns a ROBOT MR. ROGERS-THEMED array. We're combining the classics here, people. It's got beeps. It's got boops. And it's got one simple question... Won't you be my neighbor?
 
 ## Installation and Setup
 
