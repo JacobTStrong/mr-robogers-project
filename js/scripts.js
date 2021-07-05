@@ -6,8 +6,11 @@ function rodgIfy(inputtedNumber) {
     if (i.toString().includes("1")) {
       numbersArray.push("Beep!");
     }
+    else if (i.toString().includes("2")) {
+      numbersArray.push("Boop!");
+    }
     else {
-      numbersArray.push("" + i);
+      numbersArray.push(i.toString());
     }
   }
   return numbersArray;
