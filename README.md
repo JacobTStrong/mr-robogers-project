@@ -1,4 +1,5 @@
-// Describe rodgeIfy()
+// Describe rodgIfy()
 
-Test: "It will replace all digits with "Beep!" if the user-inputted number contains a 1"
-Expect: (rodgeIfy(1).toEqual["Beep!"]);
+Test: "it will return an array of numbers ranging from 0 to the user-inputted number."
+Expect (rodgIfy(5).toEqual([1, 2, 3, 4, 5]);
+
