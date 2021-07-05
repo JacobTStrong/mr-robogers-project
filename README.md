@@ -6,6 +6,9 @@ Expect (rodgIfy(5).toEqual([1, 2, 3, 4, 5]);
 Test: "It will replace all numbers containing the number 1 with "Beep!"
 Expect (rodgIfy(5).toEqual(["Beep!", 2, 3, 4, 5]);
 
+Test: "It will replace all numbers containing the number 2 with "Boop!"
+Expect (rodgIfy(5).toEqual(["Beep!", "Boop!", 3, 4, 5]);
+
 # Programming Language Suggestor
 
 #### An independent project made to practice Arrays and Looping in JavaScript. This is the third and final project of the introduction to programming course at Epicodus!
