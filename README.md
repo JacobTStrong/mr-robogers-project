@@ -53,8 +53,9 @@ For my third independent project at Epicodus, I was instructed to create a web a
 
 ## Known Bugs
 
-* all numbers that begin with 1 are replaced with "Beep!" regardless of the subsequent number (i.e. 13 = "Beep!" instead of "Won't you be my neighbor).
-* There is a bug that prevents the higher number from supercede the lower number, thus causing the numbers to be replaced by the incorrect string. 
+* all numbers that begin with 1 are replaced with "Beep!" regardless of the subsequent number (i.e. 13 = "Beep!" instead of "Won't you be my neighbor). (fixed)
+* There is a bug that prevents the higher number from supercede the lower number, thus causing the numbers to be replaced by the incorrect string. (fixed)
+* All known bugs have been fixed.
 
 ## License
 
