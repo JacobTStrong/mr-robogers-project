@@ -24,7 +24,7 @@ Expect (rodgIfy(12).toEqual([0, "Beep!", "Boop!", 3, 4, 5, 6, 7, 8, 9, "Beep!", 
 Test: "It will replace any number that contains a 3 with ("Wont you be my neighbor?"). The numbers 1 and 2 will be ignored in numbers like 13 and 32"
 Expect (rodgIfy(13).toEqual([0,"Beep!", "Boop!", "Won't you be my neighbor", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"]);
 
-# Programming Language Suggestor
+# Mr. Roboger's Neighborhood (brought to you by the Rodge Corporation)
 
 #### An independent project made to practice Arrays and Looping in JavaScript. This is the third and final project of the introduction to programming course at Epicodus!
 
